@@ -1,0 +1,33 @@
+{
+  "name": "chai-json-equal",
+  "version": "0.0.0",
+  "description": "Assert on equality of json representations in Chai",
+  "author": "Adam Hull <adam@hmlad.com>",
+  "keywords": [
+    "chai",
+    "plugin",
+    "assertion",
+    "json",
+    "deep",
+    "equality",
+    "fuzzy"
+  ],
+  "main": "chai_json_equal",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hurrymaplelad/chai-json-equal.git"
+  },
+  "homepage": "https://github.com/hurrymaplelad/chai-json-equal",
+  "bugs": "https://github.com/hurrymaplelad/chai-json-equal/issues",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "coffee-script": ">=1.7.x",
+    "jshint": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "jshint *.js && mocha"
+  }
+}
