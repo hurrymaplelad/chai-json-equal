@@ -5,6 +5,10 @@
   "author": "Adam Hull <adam@hmlad.com>",
   "keywords": [
     "chai",
+    "chai-plugin",
+    "browser",
+    "objects",
+    "array",
     "plugin",
     "assertion",
     "json",
