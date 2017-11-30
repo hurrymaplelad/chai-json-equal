@@ -10,7 +10,7 @@ module.exports = function (chai, utils) {
 
       this.assert(
         utils.eql(actual, expected),
-        'expected #{act} to have the same json representation as #{exp}',
+        'expected #{act} to have the same json representation as #{exp}, but its representation was ' + JSON.stringify(actual),
         'expected #{act} to have a different json representation than #{exp}',
         expected,
         actual
