@@ -37,5 +37,6 @@ module.exports = function (chai, utils) {
   }
 
   chai.Assertion.overwriteChainableMethod('contain', transformBeforeAssert, passThrough);
+  chai.Assertion.overwriteChainableMethod('roughly', transformBeforeAssert, passThrough);
   chai.Assertion.overwriteMethod('members', transformBeforeAssert);
 };
