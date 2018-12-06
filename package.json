@@ -2,7 +2,7 @@
   "main": "chai_json_equal.js",
   "name": "chai-json-equal",
   "types": "chai-json-equal.d.ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Assert on equality of json representations in Chai",
   "author": "Adam Hull <adam@hmlad.com>",
   "keywords": [
