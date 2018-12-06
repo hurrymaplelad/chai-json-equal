@@ -1,5 +1,7 @@
 {
+  "main": "chai_json_equal.js",
   "name": "chai-json-equal",
+  "types": "chai-json-equal.d.ts",
   "version": "0.0.1",
   "description": "Assert on equality of json representations in Chai",
   "author": "Adam Hull <adam@hmlad.com>",
@@ -16,7 +18,6 @@
     "equality",
     "fuzzy"
   ],
-  "main": "chai_json_equal",
   "repository": {
     "type": "git",
     "url": "git://github.com/hurrymaplelad/chai-json-equal.git"
